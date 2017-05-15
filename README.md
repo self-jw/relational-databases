@@ -1,12 +1,12 @@
 # Team info:
 
 Team-name: #perfect-crane
+
 Authors: [@self-jw, Jolly Walia](https://github.com/self-jw)
+
 JS Dev link: http://jsdev.learnersguild.org/goals/254-Init_4-Relational_Databases.html
 
 Review Link: [Project Review Link](https://github.com/self-jw/relational-databases)
-
-# Project Notes for Reviewer
 
 
 # Specs
@@ -36,7 +36,7 @@ Complete another Khan Academy project, use the SQL Designer tool, and install th
 
 Create schemas and mock data for the “Music Player” app from the Init 3 goal. Then run queries against them. Read the Generating Mock Data section to learn how to generate fake data.
 
-## Music Player
+#### Music Player
 
 - [ ] Folder music-player/ exists in your repo.
 - [ ] Database schema SQL (using PostgreSQL syntax) for the Music Player from Init 3: Hello, Web Servers is included in the file music-player/schema.sql.
@@ -55,7 +55,7 @@ Create schemas and mock data for the “Music Player” app from the Init 3 goal
 - [ ] Queries against the Music Player use the IN keyword (at least once)
 - [ ] Queries against the Music Player use the JOIN keyword (at least once)
 
-## Bike Shop
+#### Bike Shop
 
 Create a database for a fictional bike shop. Use the Table Schema for Bike Shop provided.
 
