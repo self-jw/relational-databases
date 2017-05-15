@@ -17,9 +17,9 @@ Setup repo, complete a Khan Academy project, and install PostgreSQL. For instruc
 
 - [X] Artifact repo is created on GitHub.
 - [X] The artifact repo is properly licensed, preferably with the MIT license.
-- [ ] Solution SQL for the Khan Academy project: Design a store database is added to a file in your repo named store_db.sql
-- [ ] SQL in store_db.sql has consistent indentation.
-- [ ] All the SQL keywords in store_db.sql are written in ALL CAPS.
+- [X] Solution SQL for the Khan Academy project: Design a store database is added to a file in your repo named store_db.sql
+- [X] SQL in store_db.sql has consistent indentation.
+- [X] All the SQL keywords in store_db.sql are written in ALL CAPS.
 - [ ] PostgreSQL is installed on your computer with Homebrew.
 
 ### Stage 2

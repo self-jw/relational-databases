@@ -1,4 +1,9 @@
-CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, size TEXT, volume INTEGER, price NUMERIC);
+CREATE TABLE store 
+    (id INTEGER PRIMARY KEY, 
+    item TEXT, 
+    size TEXT, 
+    volume INTEGER, 
+    price NUMERIC);
 
 INSERT INTO store VALUES (1, "Orange", "small", 12, 5.50);
 INSERT INTO store VALUES (2, "Orange", "medium", 16,  6.50);
