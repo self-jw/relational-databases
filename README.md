@@ -38,22 +38,22 @@ Create schemas and mock data for the “Music Player” app from the Init 3 goal
 
 #### Music Player
 
-- [ ] Folder music-player/ exists in your repo.
-- [ ] Database schema SQL (using PostgreSQL syntax) for the Music Player from Init 3: Hello, Web Servers is included in the file music-player/schema.sql.
-- [ ] Music Player schema includes table and appropriate columns for Artists
-- [ ] Music Player schema includes table and appropriate columns for Albums
-- [ ] Music Player schema includes table and appropriate columns for Songs
-- [ ] Music Player schema includes table and appropriate columns for Playlists
-- [ ] Mock data is generated for the Music Player and added to the file music-player/mock_data.sql.
-- [ ] Sample queries against the Music Player database are added to the file music-player/queries.sql.
-- [ ] Queries against the Music Player use the WHERE keyword (at least once)
-- [ ] Queries against the Music Player use the LIMIT keyword (at least once)
-- [ ] Queries against the Music Player use the ORDER BY keyword (at least once)
-- [ ] Queries against the Music Player use the LIKE keyword (at least once)
-- [ ] Queries against the Music Player use the AND/OR keyword (at least once)
-- [ ] Queries against the Music Player use the HAVING keyword (at least once)
-- [ ] Queries against the Music Player use the IN keyword (at least once)
-- [ ] Queries against the Music Player use the JOIN keyword (at least once)
+- [X] Folder music-player/ exists in your repo.
+- [X] Database schema SQL (using PostgreSQL syntax) for the Music Player from Init 3: Hello, Web Servers is included in the file music-player/schema.sql.
+- [X] Music Player schema includes table and appropriate columns for Artists
+- [X] Music Player schema includes table and appropriate columns for Albums
+- [X] Music Player schema includes table and appropriate columns for Songs
+- [X] Music Player schema includes table and appropriate columns for Playlists
+- [X] Mock data is generated for the Music Player and added to the file music-player/mock_data.sql.
+- [X] Sample queries against the Music Player database are added to the file music-player/queries.sql.
+- [X] Queries against the Music Player use the WHERE keyword (at least once)
+- [X] Queries against the Music Player use the LIMIT keyword (at least once)
+- [X] Queries against the Music Player use the ORDER BY keyword (at least once)
+- [X] Queries against the Music Player use the LIKE keyword (at least once)
+- [X] Queries against the Music Player use the AND/OR keyword (at least once)
+- [X] Queries against the Music Player use the HAVING keyword (at least once)
+- [X] Queries against the Music Player use the IN keyword (at least once)
+- [X] Queries against the Music Player use the JOIN keyword (at least once)
 
 #### Bike Shop
 
