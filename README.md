@@ -20,17 +20,17 @@ Setup repo, complete a Khan Academy project, and install PostgreSQL. For instruc
 - [X] Solution SQL for the Khan Academy project: Design a store database is added to a file in your repo named store_db.sql
 - [X] SQL in store_db.sql has consistent indentation.
 - [X] All the SQL keywords in store_db.sql are written in ALL CAPS.
-- [ ] PostgreSQL is installed on your computer with Homebrew.
+- [X] PostgreSQL is installed on your computer with Homebrew.
 
 ### Stage 2
 
 Complete another Khan Academy project, use the SQL Designer tool, and install the Postico app (this is recommended, but not required).
 
-- [ ] Solution SQL for the Khan Academy project: Data dig is added to a file in your repo named data_dig.sql
-- [ ] SQL in data_dig.sql has consistent indentation.
-- [ ] All the SQL keywords in data_dig.sql are written in ALL CAPS.
-- [ ] Schema diagrams are created for both the “Store database” and “Data dig” database using the SQL Designer tool.
-- [ ] Screenshots of each schema diagram are added to repo as store_db_schema.png and data_dig_schema.png, respectively.
+- [X] Solution SQL for the Khan Academy project: Data dig is added to a file in your repo named data_dig.sql
+- [X] SQL in data_dig.sql has consistent indentation.
+- [X] All the SQL keywords in data_dig.sql are written in ALL CAPS.
+- [X] Schema diagrams are created for both the “Store database” and “Data dig” database using the SQL Designer tool.
+- [X] Screenshots of each schema diagram are added to repo as store_db_schema.png and data_dig_schema.png, respectively.
 
 ### Stage 3
 
