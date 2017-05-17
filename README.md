@@ -59,9 +59,9 @@ Create schemas and mock data for the “Music Player” app from the Init 3 goal
 
 Create a database for a fictional bike shop. Use the Table Schema for Bike Shop provided.
 
-- [ ] Folder bike-shop/ exists in your repo.
-- [ ] Database schema SQL (using PostgreSQL syntax) for the Bike Shop is included in the file bike-shop/schema.sql.
-- [ ] Bike Shop schema matches the specifications in Table Schema for Bike Shop.
+- [X] Folder bike-shop/ exists in your repo.
+- [X] Database schema SQL (using PostgreSQL syntax) for the Bike Shop is included in the file bike-shop/schema.sql.
+- [X] Bike Shop schema matches the specifications in Table Schema for Bike Shop.
 
 ### Stage 4
 
