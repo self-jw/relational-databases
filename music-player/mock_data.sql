@@ -1,14 +1,14 @@
-"album_id","name","artist_id"
+"id","name","artist_id"
 1,"Chicago 19",2
 2,"Master of Puppets",1
 3,"Thriller",3
 
-"artist_id","name","albums","genre"
+"id","name","albums","genre"
 1,"Metallica",10,"Metal "
 2,"Chicago",36,"Soft Rock"
 3,"Michael Jackson",10,"Pop"
 
-"song_id","name","artist_id","album_id"
+"id","name","artist_id","album_id"
 1,"I Don't Wanna Live Without Your Love",2,1
 2,"Thriller",3,3
 3,"Battery",1,2
@@ -19,7 +19,7 @@
 8,"What Kind of Man Would I Be?",2,1
 9,"Welcome Home (Sanitatium)",1,2
 
-"playlist_id","name","song_id"
+"id","name","song_id"
 1,"Jamz",2
 2,"Jamz",7
 3,"Chill",5

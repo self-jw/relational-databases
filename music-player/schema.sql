@@ -1,22 +1,46 @@
 CREATE TABLE artists (
-    artist_id INTEGER PRIMARY KEY,
+    id INTEGER,
     name TEXT,
     albums INTEGER,
     genre TEXT);
 
 CREATE TABLE albums (
-    album_id INTEGER PRIMARY KEY,
-    name TEXT,
-    FOREIGN KEY artist_id);
+    id INTEGER,
+    artist_id INTEGER,
+    name TEXT);
 
 CREATE TABLE songs (
-    song_id INTEGER PRIMARY KEY,
+    id INTEGER,
+    artist_id INTEGER,
+    album_id INTEGER,
     name TEXT,
-    FOREIGN KEY artist_id,
-    FOREIGN KEY album_id, 
     length INTEGER);
 
 CREATE TABLE playlists (
-    playlist_id INTEGER PRIMARY KEY,
-    name TEXT,
-    FOREIGN KEY song_id);
+    id INTEGER,
+    song_id INTEGER,
+    name TEXT);
+
+ALTER TABLE ONLY artists 
+     ADD CONSTRAINT artists_pkey PRIMARY KEY (id);
+
+ALTER TABLE ONLY albums 
+     ADD CONSTRAINT albums_pkey PRIMARY KEY (id);
+
+ALTER TABLE ONLY songs
+     ADD CONSTRAINT songs_pkey PRIMARY KEY (id);
+
+ALTER TABLE ONLY playlists
+     ADD CONSTRAINT playlists_pkey PRIMARY KEY (id);
+
+ALTER TABLE ONLY albums
+     ADD CONSTRAINT artists_id_fkey FOREIGN KEY (artist_id) REFERENCES artists(id);
+
+ALTER TABLE ONLY songs
+     ADD CONSTRAINT artists_id_fkey FOREIGN KEY (artist_id) REFERENCES artists(id);
+
+ALTER TABLE ONLY songs
+     ADD CONSTRAINT album_id_fkey FOREIGN KEY (album_id) REFERENCES albums(id);
+
+ALTER TABLE ONLY playlists
+     ADD CONSTRAINT song_id_fkey FOREIGN KEY (song_id) REFERENCES songs(id);
