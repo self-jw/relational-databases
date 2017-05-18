@@ -70,16 +70,16 @@ Complete the final Khan Academy project. Design and create schemas for the “Bo
 - [X] Solution SQL for the Khan Academy project: App impersonator is added to a file in your repo named app_impersonator.sql
 - [X] SQL in app_impersonator.sql has consistent indentation.
 - [X] All the SQL keywords in app_impersonator.sql are written in ALL CAPS.
-- [ ] Folder bossggle/ exists in your repo.
-- [ ] Database schema SQL (using PostgreSQL syntax) for the Bossggle game from Init 1: Bossggle Word Game is included in the file bossggle/schema.sql.
-- [ ] Bossggle schema supports the following features (i.e. you could write SQL to show this data):
+- [X] Folder bossggle/ exists in your repo.
+- [X] Database schema SQL (using PostgreSQL syntax) for the Bossggle game from Init 1: Bossggle Word Game is included in the file bossggle/schema.sql.
+- [X] Bossggle schema supports the following features (i.e. you could write SQL to show this data):
 
-- [ ] List all words guessed
-- [ ] Count all correct words guessed
-- [ ] Count all incorrect words guessed
-- [ ] List all words guessed and their scores
-- [ ] Get sum of scores for all words guessed
-- [ ] Show 10 most recently guessed words
+- [X] List all words guessed
+- [X] Count all correct words guessed
+- [X] Count all incorrect words guessed
+- [X] List all words guessed and their scores
+- [X] Get sum of scores for all words guessed
+- [X] Show 10 most recently guessed words
 
 ### Stage 5
 
