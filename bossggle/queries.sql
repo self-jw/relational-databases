@@ -24,7 +24,7 @@ SELECT SUM(score)
     FROM word;
 
 /* Show 10 most recently guessed words */
-SELECT * 
+SELECT letters
     FROM 
     (
         SELECT * FROM word
