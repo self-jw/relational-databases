@@ -33,4 +33,5 @@ SELECT *
 
 SELECT songs.name
     FROM songs
-    INNER JOIN playlists ON songs.id=playlists.song_id
+    INNER JOIN playlists 
+    ON songs.id=playlists.song_id
