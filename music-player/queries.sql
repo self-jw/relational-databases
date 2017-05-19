@@ -16,7 +16,7 @@ SELECT *
 
 SELECT * 
     FROM playlists
-    WHERE name='Jamz' and playlist_id=2;
+    WHERE name='Jamz' and id=2;
 
 SELECT * 
     FROM playlists
@@ -25,12 +25,12 @@ SELECT *
 SELECT COUNT(playlist_id), name
     FROM playlists
     GROUP BY name
-    HAVING COUNT(playlist_id) > 2;
+    HAVING COUNT(id) > 2;
 
 SELECT * 
     FROM songs
-    WHERE artist_id IN (1, 2);
+    WHERE id IN (1, 2);
 
 SELECT songs.name
     FROM songs
-    INNER JOIN playlists ON songs.song_id=playlists.song_id
+    INNER JOIN playlists ON songs.id=playlists.song_id
