@@ -85,19 +85,19 @@ Complete the final Khan Academy project. Design and create schemas for the “Bo
 
 Pick 2-3 real-world apps (for example: Twitter, Instagram, Google Drive, etc.) and design a sample database schema for each of them. Then generate some mock data and run queries against them. Your schemas don’t have to be exactly what these apps would use, but they should roughly approximate the basic features.
 
-- [ ] 2 or 3 real-world apps are chosen and folders are created for each of them.
+- [X] 2 or 3 real-world apps are chosen and folders are created for each of them.
 
 For each real-world app chosen there exists:
 
-- [ ] A SQL schema in the file <app name>/schema.sql.
-- [ ] A set of mock data INSERT statements in the file <app name>/mock_data.sql.
-- [ ] A set of example queries in the file <app name>/queries.sql.
-- [ ] Queries against the real-world apps use the INSERT keyword (at least once)
-- [ ] Queries against the real-world apps use the UPDATE keyword (at least once)
-- [ ] Queries against the real-world apps use the DELETE keyword (at least once)
-- [ ] Queries against the real-world apps use the WHERE keyword (at least once)
-- [ ] Queries against the real-world apps use the LIMIT keyword (at least once)
-- [ ] Queries against the real-world apps use the ORDER BY keyword (at least once)
-- [ ] Queries against the real-world apps use the JOIN keyword (at least once)
-- [ ] SQL in all real-world app SQL files have consistent indentation.
-- [ ] All the SQL keywords all real-world app SQL files are written in ALL CAPS.
+- [X] A SQL schema in the file <app name>/schema.sql.
+- [X] A set of mock data INSERT statements in the file <app name>/mock_data.sql.
+- [X] A set of example queries in the file <app name>/queries.sql.
+- [X] Queries against the real-world apps use the INSERT keyword (at least once)
+- [X] Queries against the real-world apps use the UPDATE keyword (at least once)
+- [X] Queries against the real-world apps use the DELETE keyword (at least once)
+- [X] Queries against the real-world apps use the WHERE keyword (at least once)
+- [X] Queries against the real-world apps use the LIMIT keyword (at least once)
+- [X] Queries against the real-world apps use the ORDER BY keyword (at least once)
+- [X] Queries against the real-world apps use the JOIN keyword (at least once)
+- [X] SQL in all real-world app SQL files have consistent indentation.
+- [X] All the SQL keywords all real-world app SQL files are written in ALL CAPS.
