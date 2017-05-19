@@ -1,29 +1,29 @@
-"id","name","artist_id"
-1,"Chicago 19",2
-2,"Master of Puppets",1
-3,"Thriller",3
+albums (id, artist_id, name)
+1	2	Chicago 19
+2	1	Master of Puppets
+3	3	Thriller
 
-"id","name","albums","genre"
-1,"Metallica",10,"Metal "
-2,"Chicago",36,"Soft Rock"
-3,"Michael Jackson",10,"Pop"
+artists (id, name, albums, genre)
+1	Metallica	10	Metal 
+2	Chicago	36	Soft Rock
+3	Michael Jackson	10	Pop
 
-"id","name","artist_id","album_id"
-1,"I Don't Wanna Live Without Your Love",2,1
-2,"Thriller",3,3
-3,"Battery",1,2
-4,"Look Away",2,1
-5,"Billie Jean",3,3
-6,"Master of Puppets",1,2
-7,"Beat It",3,3
-8,"What Kind of Man Would I Be?",2,1
-9,"Welcome Home (Sanitatium)",1,2
+playlists (id, song_id, name)
+1	2	Jamz
+2	7	Jamz
+3	5	Chill
+4	9	Chill
+5	1	The Feelz
+6	4	The Feelz
+7	8	The Feelz
 
-"id","name","song_id"
-1,"Jamz",2
-2,"Jamz",7
-3,"Chill",5
-4,"Chill",9
-5,"The Feelz",1
-6,"The Feelz",4
-7,"The Feelz",8
+songs (id, artist_id, album_id, name, length)
+1	2	1	I Don't Wanna Live Without Your Love	4
+2	3	3	Thriller	5
+3	1	2	Battery	6
+4	2	1	Look Away	5
+5	3	3	Billie Jean	4
+6	1	2	Master of Puppets	3
+7	3	3	Beat It	7
+8	2	1	What Kind of Man Would I Be?	5
+9	1	2	Welcome Home (Sanitarium)	6
